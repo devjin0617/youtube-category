@@ -13,6 +13,9 @@
 
 <script>
 export default {
+  mounted () {
+    // this.$Loading.start()
+  },
   methods: {
     login () {
       const clientId = ''
