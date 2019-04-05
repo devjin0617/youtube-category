@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import AtComponents from 'at-ui'
+
+Vue.use(AtComponents)
 
 Vue.config.productionTip = false
 
